@@ -1,0 +1,16 @@
+E:\Dev\C#\HomeAssistant\HomeAssistant\HomeAssistant\HomeAssistant\bin\Debug\net5.0\HomeAssistant.exe
+E:\Dev\C#\HomeAssistant\HomeAssistant\HomeAssistant\HomeAssistant\bin\Debug\net5.0\HomeAssistant.deps.json
+E:\Dev\C#\HomeAssistant\HomeAssistant\HomeAssistant\HomeAssistant\bin\Debug\net5.0\HomeAssistant.runtimeconfig.json
+E:\Dev\C#\HomeAssistant\HomeAssistant\HomeAssistant\HomeAssistant\bin\Debug\net5.0\HomeAssistant.runtimeconfig.dev.json
+E:\Dev\C#\HomeAssistant\HomeAssistant\HomeAssistant\HomeAssistant\bin\Debug\net5.0\HomeAssistant.dll
+E:\Dev\C#\HomeAssistant\HomeAssistant\HomeAssistant\HomeAssistant\bin\Debug\net5.0\ref\HomeAssistant.dll
+E:\Dev\C#\HomeAssistant\HomeAssistant\HomeAssistant\HomeAssistant\bin\Debug\net5.0\HomeAssistant.pdb
+E:\Dev\C#\HomeAssistant\HomeAssistant\HomeAssistant\HomeAssistant\obj\Debug\net5.0\HomeAssistant.csproj.AssemblyReference.cache
+E:\Dev\C#\HomeAssistant\HomeAssistant\HomeAssistant\HomeAssistant\obj\Debug\net5.0\HomeAssistant.GeneratedMSBuildEditorConfig.editorconfig
+E:\Dev\C#\HomeAssistant\HomeAssistant\HomeAssistant\HomeAssistant\obj\Debug\net5.0\HomeAssistant.AssemblyInfoInputs.cache
+E:\Dev\C#\HomeAssistant\HomeAssistant\HomeAssistant\HomeAssistant\obj\Debug\net5.0\HomeAssistant.AssemblyInfo.cs
+E:\Dev\C#\HomeAssistant\HomeAssistant\HomeAssistant\HomeAssistant\obj\Debug\net5.0\HomeAssistant.csproj.CoreCompileInputs.cache
+E:\Dev\C#\HomeAssistant\HomeAssistant\HomeAssistant\HomeAssistant\obj\Debug\net5.0\HomeAssistant.dll
+E:\Dev\C#\HomeAssistant\HomeAssistant\HomeAssistant\HomeAssistant\obj\Debug\net5.0\ref\HomeAssistant.dll
+E:\Dev\C#\HomeAssistant\HomeAssistant\HomeAssistant\HomeAssistant\obj\Debug\net5.0\HomeAssistant.pdb
+E:\Dev\C#\HomeAssistant\HomeAssistant\HomeAssistant\HomeAssistant\obj\Debug\net5.0\HomeAssistant.genruntimeconfig.cache
