@@ -14,3 +14,11 @@ E:\Dev\C#\HomeAssistant\HomeAssistant\HomeAssistant\HomeAssistant\obj\Debug\net5
 E:\Dev\C#\HomeAssistant\HomeAssistant\HomeAssistant\HomeAssistant\obj\Debug\net5.0\ref\HomeAssistant.dll
 E:\Dev\C#\HomeAssistant\HomeAssistant\HomeAssistant\HomeAssistant\obj\Debug\net5.0\HomeAssistant.pdb
 E:\Dev\C#\HomeAssistant\HomeAssistant\HomeAssistant\HomeAssistant\obj\Debug\net5.0\HomeAssistant.genruntimeconfig.cache
+C:\Users\Niggurath\Source\Repos\HomeAssistant\HomeAssistant\HomeAssistant\obj\Debug\net5.0\HomeAssistant.csprojAssemblyReference.cache
+C:\Users\Niggurath\Source\Repos\HomeAssistant\HomeAssistant\HomeAssistant\obj\Debug\net5.0\HomeAssistant.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Niggurath\Source\Repos\HomeAssistant\HomeAssistant\HomeAssistant\obj\Debug\net5.0\HomeAssistant.AssemblyInfoInputs.cache
+C:\Users\Niggurath\Source\Repos\HomeAssistant\HomeAssistant\HomeAssistant\obj\Debug\net5.0\HomeAssistant.AssemblyInfo.cs
+C:\Users\Niggurath\Source\Repos\HomeAssistant\HomeAssistant\HomeAssistant\obj\Debug\net5.0\HomeAssistant.csproj.CoreCompileInputs.cache
+C:\Users\Niggurath\Source\Repos\HomeAssistant\HomeAssistant\HomeAssistant\obj\Debug\net5.0\HomeAssistant.dll
+C:\Users\Niggurath\Source\Repos\HomeAssistant\HomeAssistant\HomeAssistant\obj\Debug\net5.0\ref\HomeAssistant.dll
+C:\Users\Niggurath\Source\Repos\HomeAssistant\HomeAssistant\HomeAssistant\obj\Debug\net5.0\HomeAssistant.pdb

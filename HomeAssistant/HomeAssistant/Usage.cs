@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace HomeAssistant
-{
+{   
     class Usage
     {
         static void Main(string[] args)
@@ -18,6 +18,12 @@ namespace HomeAssistant
             client.Send("Testing!");
 
             Console.ReadKey();
+
+
+
+
+
+
         }
     }
 }

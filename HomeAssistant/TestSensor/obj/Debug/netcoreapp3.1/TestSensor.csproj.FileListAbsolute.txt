@@ -1,0 +1,16 @@
+C:\Users\Niggurath\Source\Repos\HomeAssistant\HomeAssistant\TestSensor\bin\Debug\netcoreapp3.1\TestSensor.exe
+C:\Users\Niggurath\Source\Repos\HomeAssistant\HomeAssistant\TestSensor\bin\Debug\netcoreapp3.1\TestSensor.deps.json
+C:\Users\Niggurath\Source\Repos\HomeAssistant\HomeAssistant\TestSensor\bin\Debug\netcoreapp3.1\TestSensor.runtimeconfig.json
+C:\Users\Niggurath\Source\Repos\HomeAssistant\HomeAssistant\TestSensor\bin\Debug\netcoreapp3.1\TestSensor.runtimeconfig.dev.json
+C:\Users\Niggurath\Source\Repos\HomeAssistant\HomeAssistant\TestSensor\bin\Debug\netcoreapp3.1\TestSensor.dll
+C:\Users\Niggurath\Source\Repos\HomeAssistant\HomeAssistant\TestSensor\bin\Debug\netcoreapp3.1\TestSensor.pdb
+C:\Users\Niggurath\Source\Repos\HomeAssistant\HomeAssistant\TestSensor\bin\Debug\netcoreapp3.1\RabbitMQ.Client.dll
+C:\Users\Niggurath\Source\Repos\HomeAssistant\HomeAssistant\TestSensor\bin\Debug\netcoreapp3.1\System.Threading.Channels.dll
+C:\Users\Niggurath\Source\Repos\HomeAssistant\HomeAssistant\TestSensor\obj\Debug\netcoreapp3.1\TestSensor.csprojAssemblyReference.cache
+C:\Users\Niggurath\Source\Repos\HomeAssistant\HomeAssistant\TestSensor\obj\Debug\netcoreapp3.1\TestSensor.AssemblyInfoInputs.cache
+C:\Users\Niggurath\Source\Repos\HomeAssistant\HomeAssistant\TestSensor\obj\Debug\netcoreapp3.1\TestSensor.AssemblyInfo.cs
+C:\Users\Niggurath\Source\Repos\HomeAssistant\HomeAssistant\TestSensor\obj\Debug\netcoreapp3.1\TestSensor.csproj.CoreCompileInputs.cache
+C:\Users\Niggurath\Source\Repos\HomeAssistant\HomeAssistant\TestSensor\obj\Debug\netcoreapp3.1\TestSensor.csproj.CopyComplete
+C:\Users\Niggurath\Source\Repos\HomeAssistant\HomeAssistant\TestSensor\obj\Debug\netcoreapp3.1\TestSensor.dll
+C:\Users\Niggurath\Source\Repos\HomeAssistant\HomeAssistant\TestSensor\obj\Debug\netcoreapp3.1\TestSensor.pdb
+C:\Users\Niggurath\Source\Repos\HomeAssistant\HomeAssistant\TestSensor\obj\Debug\netcoreapp3.1\TestSensor.genruntimeconfig.cache

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "+9cc0bNX92bu8X1ChzSGBtUXhbaUxRyUCzlRD9mGpq+mHDXN9JdIQPaiNPpPZe2sKei5oe7ZTM/EESJjUTNiyg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Niggurath\\Source\\Repos\\HomeAssistant\\HomeAssistant\\TestSensor\\TestSensor.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Niggurath\\.nuget\\packages\\rabbitmq.client\\6.2.2\\rabbitmq.client.6.2.2.nupkg.sha512",
+    "C:\\Users\\Niggurath\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\Niggurath\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

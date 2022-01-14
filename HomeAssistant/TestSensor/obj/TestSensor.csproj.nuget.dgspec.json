@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Niggurath\\Source\\Repos\\HomeAssistant\\HomeAssistant\\HomeAssistant\\HomeAssistant.csproj": {}
+    "C:\\Users\\Niggurath\\Source\\Repos\\HomeAssistant\\HomeAssistant\\TestSensor\\TestSensor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Niggurath\\Source\\Repos\\HomeAssistant\\HomeAssistant\\HomeAssistant\\HomeAssistant.csproj": {
+    "C:\\Users\\Niggurath\\Source\\Repos\\HomeAssistant\\HomeAssistant\\TestSensor\\TestSensor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Niggurath\\Source\\Repos\\HomeAssistant\\HomeAssistant\\HomeAssistant\\HomeAssistant.csproj",
-        "projectName": "HomeAssistant",
-        "projectPath": "C:\\Users\\Niggurath\\Source\\Repos\\HomeAssistant\\HomeAssistant\\HomeAssistant\\HomeAssistant.csproj",
+        "projectUniqueName": "C:\\Users\\Niggurath\\Source\\Repos\\HomeAssistant\\HomeAssistant\\TestSensor\\TestSensor.csproj",
+        "projectName": "TestSensor",
+        "projectPath": "C:\\Users\\Niggurath\\Source\\Repos\\HomeAssistant\\HomeAssistant\\TestSensor\\TestSensor.csproj",
         "packagesPath": "C:\\Users\\Niggurath\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Niggurath\\Source\\Repos\\HomeAssistant\\HomeAssistant\\HomeAssistant\\obj\\",
+        "outputPath": "C:\\Users\\Niggurath\\Source\\Repos\\HomeAssistant\\HomeAssistant\\TestSensor\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Niggurath\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,8 +37,14 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.2.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
