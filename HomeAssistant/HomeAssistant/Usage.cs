@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace HomeAssistant
 {   
     class Usage
@@ -17,6 +18,7 @@ namespace HomeAssistant
             client.Initialize("127.0.0.1", 27000);
             client.Send("Testing!");
 
+            server.ReceiveMQ();
             Console.ReadKey();
 
 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+9cc0bNX92bu8X1ChzSGBtUXhbaUxRyUCzlRD9mGpq+mHDXN9JdIQPaiNPpPZe2sKei5oe7ZTM/EESJjUTNiyg==",
+  "dgSpecHash": "endUnL1Qgzq64I4OzdvIUVsqX0jQxYgwKE0e+zqSWHlQ/y7+I+eHXSL8I+VbZ1b0pjBFAm9bbpG4PrphDaoqWQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Niggurath\\Source\\Repos\\HomeAssistant\\HomeAssistant\\TestSensor\\TestSensor.csproj",
+  "projectFilePath": "C:\\Users\\Niggurath\\Source\\Repos\\HomeAssistant\\HomeAssistant\\TestSensor\\Lamp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Niggurath\\.nuget\\packages\\rabbitmq.client\\6.2.2\\rabbitmq.client.6.2.2.nupkg.sha512",
     "C:\\Users\\Niggurath\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",

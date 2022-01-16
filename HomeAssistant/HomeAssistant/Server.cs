@@ -2,6 +2,8 @@
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
+using RabbitMQ.Client;
+using RabbitMQ.Client.Events;
 using System.Threading;
 
 namespace HomeAssistant
@@ -23,7 +25,7 @@ namespace HomeAssistant
         {
             socket.SetSocketOption(SocketOptionLevel.IP, SocketOptionName.ReuseAddress, true);
             socket.Bind(new IPEndPoint(IPAddress.Parse(address), port));
-            Receive();            
+            Receive();
         }
 
         public void Send(string text)
@@ -38,7 +40,7 @@ namespace HomeAssistant
         }
 
         private void Receive()
-        {            
+        {
             socket.BeginReceiveFrom(state.buffer, 0, bufSize, SocketFlags.None, ref epFrom, recv = (ar) =>
             {
                 State so = (State)ar.AsyncState;
@@ -48,7 +50,39 @@ namespace HomeAssistant
             }, state);
         }
 
-       
+        public void ReceiveMQ()
+        {
+            var factory = new ConnectionFactory() { HostName = "localhost" };
+            using (var connection = factory.CreateConnection())
+            using (var channel = connection.CreateModel())
+            {
+                channel.ExchangeDeclare(exchange: "data", type: "direct");
+                var queueName = channel.QueueDeclare().QueueName;
+                channel.QueueBind(queue: queueName,
+                                  exchange: "data",
+                                  routingKey: "rt_test");
+
+                Console.WriteLine(" [*] Waiting for messages.");
+                var consumer = new EventingBasicConsumer(channel);
+
+                consumer.Received += (model, ea) =>
+                {
+                    var body = ea.Body.ToArray();
+                    var message = Encoding.UTF8.GetString(body);
+                    var routingKey = ea.RoutingKey;
+                    Console.WriteLine(" [x] Received '{0}':'{1}'",
+                                      routingKey, message);
+                };
+
+                channel.BasicConsume(queue: queueName,
+                                     autoAck: true,
+                                     consumer: consumer);
+
+                Console.WriteLine(" Press [enter] to exit.");
+                Console.ReadLine();
+            }
+
+        }
 
     }
 }

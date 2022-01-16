@@ -22,3 +22,13 @@ C:\Users\Niggurath\Source\Repos\HomeAssistant\HomeAssistant\HomeAssistant\obj\De
 C:\Users\Niggurath\Source\Repos\HomeAssistant\HomeAssistant\HomeAssistant\obj\Debug\net5.0\HomeAssistant.dll
 C:\Users\Niggurath\Source\Repos\HomeAssistant\HomeAssistant\HomeAssistant\obj\Debug\net5.0\ref\HomeAssistant.dll
 C:\Users\Niggurath\Source\Repos\HomeAssistant\HomeAssistant\HomeAssistant\obj\Debug\net5.0\HomeAssistant.pdb
+C:\Users\Niggurath\Source\Repos\HomeAssistant\HomeAssistant\HomeAssistant\bin\Debug\net5.0\HomeAssistant.exe
+C:\Users\Niggurath\Source\Repos\HomeAssistant\HomeAssistant\HomeAssistant\bin\Debug\net5.0\HomeAssistant.deps.json
+C:\Users\Niggurath\Source\Repos\HomeAssistant\HomeAssistant\HomeAssistant\bin\Debug\net5.0\HomeAssistant.runtimeconfig.json
+C:\Users\Niggurath\Source\Repos\HomeAssistant\HomeAssistant\HomeAssistant\bin\Debug\net5.0\HomeAssistant.runtimeconfig.dev.json
+C:\Users\Niggurath\Source\Repos\HomeAssistant\HomeAssistant\HomeAssistant\bin\Debug\net5.0\HomeAssistant.dll
+C:\Users\Niggurath\Source\Repos\HomeAssistant\HomeAssistant\HomeAssistant\bin\Debug\net5.0\ref\HomeAssistant.dll
+C:\Users\Niggurath\Source\Repos\HomeAssistant\HomeAssistant\HomeAssistant\bin\Debug\net5.0\HomeAssistant.pdb
+C:\Users\Niggurath\Source\Repos\HomeAssistant\HomeAssistant\HomeAssistant\bin\Debug\net5.0\RabbitMQ.Client.dll
+C:\Users\Niggurath\Source\Repos\HomeAssistant\HomeAssistant\HomeAssistant\obj\Debug\net5.0\HomeAssistant.csproj.CopyComplete
+C:\Users\Niggurath\Source\Repos\HomeAssistant\HomeAssistant\HomeAssistant\obj\Debug\net5.0\HomeAssistant.genruntimeconfig.cache

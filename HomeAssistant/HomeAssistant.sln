@@ -5,7 +5,11 @@ VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeAssistant", "HomeAssistant\HomeAssistant.csproj", "{1A718FE3-6030-4A72-BBDD-77CCDF4C7E32}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSensor", "TestSensor\TestSensor.csproj", "{E3CA9975-1EDC-4230-91D7-DEB43A6CBE6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lamp", "TestSensor\Lamp.csproj", "{E3CA9975-1EDC-4230-91D7-DEB43A6CBE6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sprinkler", "Sprinkler\Sprinkler.csproj", "{B3FD81C8-7648-44F9-9A7D-120CAB8D5A79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirConditioner", "AirConditioner\AirConditioner.csproj", "{5DB340ED-DAC2-4862-89F2-17ADED9D3AB4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{E3CA9975-1EDC-4230-91D7-DEB43A6CBE6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3CA9975-1EDC-4230-91D7-DEB43A6CBE6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3CA9975-1EDC-4230-91D7-DEB43A6CBE6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3FD81C8-7648-44F9-9A7D-120CAB8D5A79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3FD81C8-7648-44F9-9A7D-120CAB8D5A79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3FD81C8-7648-44F9-9A7D-120CAB8D5A79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3FD81C8-7648-44F9-9A7D-120CAB8D5A79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DB340ED-DAC2-4862-89F2-17ADED9D3AB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DB340ED-DAC2-4862-89F2-17ADED9D3AB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DB340ED-DAC2-4862-89F2-17ADED9D3AB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DB340ED-DAC2-4862-89F2-17ADED9D3AB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

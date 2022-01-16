@@ -114,9 +114,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Niggurath\\Source\\Repos\\HomeAssistant\\HomeAssistant\\TestSensor\\TestSensor.csproj",
-      "projectName": "TestSensor",
-      "projectPath": "C:\\Users\\Niggurath\\Source\\Repos\\HomeAssistant\\HomeAssistant\\TestSensor\\TestSensor.csproj",
+      "projectUniqueName": "C:\\Users\\Niggurath\\Source\\Repos\\HomeAssistant\\HomeAssistant\\TestSensor\\Lamp.csproj",
+      "projectName": "Lamp",
+      "projectPath": "C:\\Users\\Niggurath\\Source\\Repos\\HomeAssistant\\HomeAssistant\\TestSensor\\Lamp.csproj",
       "packagesPath": "C:\\Users\\Niggurath\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Niggurath\\Source\\Repos\\HomeAssistant\\HomeAssistant\\TestSensor\\obj\\",
       "projectStyle": "PackageReference",

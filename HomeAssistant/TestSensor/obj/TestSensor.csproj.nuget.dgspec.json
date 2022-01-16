@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Niggurath\\Source\\Repos\\HomeAssistant\\HomeAssistant\\TestSensor\\TestSensor.csproj": {}
+    "C:\\Users\\Niggurath\\source\\repos\\HomeAssistant\\HomeAssistant\\TestSensor\\TestSensor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Niggurath\\Source\\Repos\\HomeAssistant\\HomeAssistant\\TestSensor\\TestSensor.csproj": {
+    "C:\\Users\\Niggurath\\source\\repos\\HomeAssistant\\HomeAssistant\\TestSensor\\TestSensor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Niggurath\\Source\\Repos\\HomeAssistant\\HomeAssistant\\TestSensor\\TestSensor.csproj",
+        "projectUniqueName": "C:\\Users\\Niggurath\\source\\repos\\HomeAssistant\\HomeAssistant\\TestSensor\\TestSensor.csproj",
         "projectName": "TestSensor",
-        "projectPath": "C:\\Users\\Niggurath\\Source\\Repos\\HomeAssistant\\HomeAssistant\\TestSensor\\TestSensor.csproj",
+        "projectPath": "C:\\Users\\Niggurath\\source\\repos\\HomeAssistant\\HomeAssistant\\TestSensor\\TestSensor.csproj",
         "packagesPath": "C:\\Users\\Niggurath\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Niggurath\\Source\\Repos\\HomeAssistant\\HomeAssistant\\TestSensor\\obj\\",
+        "outputPath": "C:\\Users\\Niggurath\\source\\repos\\HomeAssistant\\HomeAssistant\\TestSensor\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Niggurath\\AppData\\Roaming\\NuGet\\NuGet.Config",
