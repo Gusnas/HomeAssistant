@@ -1,5 +1,6 @@
 ﻿using System;
 using RabbitMQ.Client;
+using System.Threading;
 
 namespace AirConditioner
 {
@@ -7,7 +8,11 @@ namespace AirConditioner
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Insira a temperatura inicial");
+            float temp = float.Parse(Console.ReadLine());
+            TempSensor sensor = new TempSensor(temp);
+            sensor.TempVar();
+
         }
     }
 }
