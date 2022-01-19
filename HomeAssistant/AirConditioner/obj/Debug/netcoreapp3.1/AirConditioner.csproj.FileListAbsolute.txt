@@ -1,0 +1,16 @@
+C:\Users\Niggurath\Source\Repos\HomeAssistant\HomeAssistant\AirConditioner\bin\Debug\netcoreapp3.1\AirConditioner.exe
+C:\Users\Niggurath\Source\Repos\HomeAssistant\HomeAssistant\AirConditioner\bin\Debug\netcoreapp3.1\AirConditioner.deps.json
+C:\Users\Niggurath\Source\Repos\HomeAssistant\HomeAssistant\AirConditioner\bin\Debug\netcoreapp3.1\AirConditioner.runtimeconfig.json
+C:\Users\Niggurath\Source\Repos\HomeAssistant\HomeAssistant\AirConditioner\bin\Debug\netcoreapp3.1\AirConditioner.runtimeconfig.dev.json
+C:\Users\Niggurath\Source\Repos\HomeAssistant\HomeAssistant\AirConditioner\bin\Debug\netcoreapp3.1\AirConditioner.dll
+C:\Users\Niggurath\Source\Repos\HomeAssistant\HomeAssistant\AirConditioner\bin\Debug\netcoreapp3.1\AirConditioner.pdb
+C:\Users\Niggurath\Source\Repos\HomeAssistant\HomeAssistant\AirConditioner\bin\Debug\netcoreapp3.1\RabbitMQ.Client.dll
+C:\Users\Niggurath\Source\Repos\HomeAssistant\HomeAssistant\AirConditioner\bin\Debug\netcoreapp3.1\System.Threading.Channels.dll
+C:\Users\Niggurath\Source\Repos\HomeAssistant\HomeAssistant\AirConditioner\obj\Debug\netcoreapp3.1\AirConditioner.csprojAssemblyReference.cache
+C:\Users\Niggurath\Source\Repos\HomeAssistant\HomeAssistant\AirConditioner\obj\Debug\netcoreapp3.1\AirConditioner.AssemblyInfoInputs.cache
+C:\Users\Niggurath\Source\Repos\HomeAssistant\HomeAssistant\AirConditioner\obj\Debug\netcoreapp3.1\AirConditioner.AssemblyInfo.cs
+C:\Users\Niggurath\Source\Repos\HomeAssistant\HomeAssistant\AirConditioner\obj\Debug\netcoreapp3.1\AirConditioner.csproj.CoreCompileInputs.cache
+C:\Users\Niggurath\Source\Repos\HomeAssistant\HomeAssistant\AirConditioner\obj\Debug\netcoreapp3.1\AirConditioner.csproj.CopyComplete
+C:\Users\Niggurath\Source\Repos\HomeAssistant\HomeAssistant\AirConditioner\obj\Debug\netcoreapp3.1\AirConditioner.dll
+C:\Users\Niggurath\Source\Repos\HomeAssistant\HomeAssistant\AirConditioner\obj\Debug\netcoreapp3.1\AirConditioner.pdb
+C:\Users\Niggurath\Source\Repos\HomeAssistant\HomeAssistant\AirConditioner\obj\Debug\netcoreapp3.1\AirConditioner.genruntimeconfig.cache

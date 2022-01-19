@@ -50,6 +50,8 @@ namespace HomeAssistant
             }, state);
         }
 
+        /* METODO TESTE PRA RECEBER MENSAGENS PELO RABBITMQ
+          
         public void ReceiveMQ()
         {
             var factory = new ConnectionFactory() { HostName = "localhost" };
@@ -60,7 +62,7 @@ namespace HomeAssistant
                 var queueName = channel.QueueDeclare().QueueName;
                 channel.QueueBind(queue: queueName,
                                   exchange: "data",
-                                  routingKey: "rt_test");
+                                  routingKey: "ac_temp");
 
                 Console.WriteLine(" [*] Waiting for messages.");
                 var consumer = new EventingBasicConsumer(channel);
@@ -83,6 +85,7 @@ namespace HomeAssistant
             }
 
         }
+        */
 
     }
 }

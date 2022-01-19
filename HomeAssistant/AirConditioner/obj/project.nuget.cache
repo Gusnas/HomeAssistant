@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "COUTiuNxOBGEqBJ4+vgYc2LTMbYdRGM6K9E0rQg6lx5nTNY5jOO0YUbi+ydMbhRI5zwuaSKsg9mcfEd7laOE6A==",
+  "dgSpecHash": "KtJnVarydFWNOUl5obd6ccqtXKrIgVSBV9SkEUEEdnIytOqNbls+CZMec7F5ACN/r2ZFpClCh0D2YjIl1aJywQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Niggurath\\Source\\Repos\\HomeAssistant\\HomeAssistant\\AirConditioner\\AirConditioner.csproj",
+  "projectFilePath": "C:\\Users\\Niggurath\\source\\repos\\HomeAssistant\\HomeAssistant\\AirConditioner\\AirConditioner.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Niggurath\\.nuget\\packages\\rabbitmq.client\\6.2.2\\rabbitmq.client.6.2.2.nupkg.sha512",
     "C:\\Users\\Niggurath\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
