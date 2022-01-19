@@ -1,25 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Dev\\C#\\HomeAssistant\\HomeAssistant\\HomeAssistant\\HomeAssistant\\HomeAssistant.csproj": {}
+    "C:\\Users\\Niggurath\\Source\\Repos\\HomeAssistant\\HomeAssistant\\HomeAssistant\\HomeAssistant.csproj": {}
   },
   "projects": {
-    "E:\\Dev\\C#\\HomeAssistant\\HomeAssistant\\HomeAssistant\\HomeAssistant\\HomeAssistant.csproj": {
+    "C:\\Users\\Niggurath\\Source\\Repos\\HomeAssistant\\HomeAssistant\\HomeAssistant\\HomeAssistant.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Dev\\C#\\HomeAssistant\\HomeAssistant\\HomeAssistant\\HomeAssistant\\HomeAssistant.csproj",
+        "projectUniqueName": "C:\\Users\\Niggurath\\Source\\Repos\\HomeAssistant\\HomeAssistant\\HomeAssistant\\HomeAssistant.csproj",
         "projectName": "HomeAssistant",
-        "projectPath": "E:\\Dev\\C#\\HomeAssistant\\HomeAssistant\\HomeAssistant\\HomeAssistant\\HomeAssistant.csproj",
-        "packagesPath": "C:\\Users\\phil_\\.nuget\\packages\\",
-        "outputPath": "E:\\Dev\\C#\\HomeAssistant\\HomeAssistant\\HomeAssistant\\HomeAssistant\\obj\\",
+        "projectPath": "C:\\Users\\Niggurath\\Source\\Repos\\HomeAssistant\\HomeAssistant\\HomeAssistant\\HomeAssistant.csproj",
+        "packagesPath": "C:\\Users\\Niggurath\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Niggurath\\Source\\Repos\\HomeAssistant\\HomeAssistant\\HomeAssistant\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\phil_\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Niggurath\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -44,6 +39,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.2.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -59,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }
