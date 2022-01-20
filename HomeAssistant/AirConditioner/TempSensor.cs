@@ -47,7 +47,7 @@ namespace AirConditioner
                                          body: body);
 
                     Console.WriteLine(" [x] Sent '{0}':'{1}'", "ac_temp", message);
-                    Thread.Sleep(3000);
+                    Thread.Sleep(1000);
                 }
             }
 

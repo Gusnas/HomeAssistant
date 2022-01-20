@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Niggurath\\source\\repos\\HomeAssistant\\HomeAssistant\\AirConditioner\\AirConditioner.csproj": {}
+    "C:\\Users\\Niggurath\\Source\\Repos\\HomeAssistant\\HomeAssistant\\AirConditioner\\AirConditioner.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Niggurath\\source\\repos\\HomeAssistant\\HomeAssistant\\AirConditioner\\AirConditioner.csproj": {
+    "C:\\Users\\Niggurath\\Source\\Repos\\HomeAssistant\\HomeAssistant\\AirConditioner\\AirConditioner.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Niggurath\\source\\repos\\HomeAssistant\\HomeAssistant\\AirConditioner\\AirConditioner.csproj",
+        "projectUniqueName": "C:\\Users\\Niggurath\\Source\\Repos\\HomeAssistant\\HomeAssistant\\AirConditioner\\AirConditioner.csproj",
         "projectName": "AirConditioner",
-        "projectPath": "C:\\Users\\Niggurath\\source\\repos\\HomeAssistant\\HomeAssistant\\AirConditioner\\AirConditioner.csproj",
+        "projectPath": "C:\\Users\\Niggurath\\Source\\Repos\\HomeAssistant\\HomeAssistant\\AirConditioner\\AirConditioner.csproj",
         "packagesPath": "C:\\Users\\Niggurath\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Niggurath\\source\\repos\\HomeAssistant\\HomeAssistant\\AirConditioner\\obj\\",
+        "outputPath": "C:\\Users\\Niggurath\\Source\\Repos\\HomeAssistant\\HomeAssistant\\AirConditioner\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Niggurath\\AppData\\Roaming\\NuGet\\NuGet.Config",

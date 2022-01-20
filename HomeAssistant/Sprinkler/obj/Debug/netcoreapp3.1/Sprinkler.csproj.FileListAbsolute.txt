@@ -1,0 +1,16 @@
+C:\Users\Niggurath\source\repos\HomeAssistant\HomeAssistant\Sprinkler\bin\Debug\netcoreapp3.1\Sprinkler.exe
+C:\Users\Niggurath\source\repos\HomeAssistant\HomeAssistant\Sprinkler\bin\Debug\netcoreapp3.1\Sprinkler.deps.json
+C:\Users\Niggurath\source\repos\HomeAssistant\HomeAssistant\Sprinkler\bin\Debug\netcoreapp3.1\Sprinkler.runtimeconfig.json
+C:\Users\Niggurath\source\repos\HomeAssistant\HomeAssistant\Sprinkler\bin\Debug\netcoreapp3.1\Sprinkler.runtimeconfig.dev.json
+C:\Users\Niggurath\source\repos\HomeAssistant\HomeAssistant\Sprinkler\bin\Debug\netcoreapp3.1\Sprinkler.dll
+C:\Users\Niggurath\source\repos\HomeAssistant\HomeAssistant\Sprinkler\bin\Debug\netcoreapp3.1\Sprinkler.pdb
+C:\Users\Niggurath\source\repos\HomeAssistant\HomeAssistant\Sprinkler\bin\Debug\netcoreapp3.1\RabbitMQ.Client.dll
+C:\Users\Niggurath\source\repos\HomeAssistant\HomeAssistant\Sprinkler\bin\Debug\netcoreapp3.1\System.Threading.Channels.dll
+C:\Users\Niggurath\source\repos\HomeAssistant\HomeAssistant\Sprinkler\obj\Debug\netcoreapp3.1\Sprinkler.csprojAssemblyReference.cache
+C:\Users\Niggurath\source\repos\HomeAssistant\HomeAssistant\Sprinkler\obj\Debug\netcoreapp3.1\Sprinkler.AssemblyInfoInputs.cache
+C:\Users\Niggurath\source\repos\HomeAssistant\HomeAssistant\Sprinkler\obj\Debug\netcoreapp3.1\Sprinkler.AssemblyInfo.cs
+C:\Users\Niggurath\source\repos\HomeAssistant\HomeAssistant\Sprinkler\obj\Debug\netcoreapp3.1\Sprinkler.csproj.CoreCompileInputs.cache
+C:\Users\Niggurath\source\repos\HomeAssistant\HomeAssistant\Sprinkler\obj\Debug\netcoreapp3.1\Sprinkler.csproj.CopyComplete
+C:\Users\Niggurath\source\repos\HomeAssistant\HomeAssistant\Sprinkler\obj\Debug\netcoreapp3.1\Sprinkler.dll
+C:\Users\Niggurath\source\repos\HomeAssistant\HomeAssistant\Sprinkler\obj\Debug\netcoreapp3.1\Sprinkler.pdb
+C:\Users\Niggurath\source\repos\HomeAssistant\HomeAssistant\Sprinkler\obj\Debug\netcoreapp3.1\Sprinkler.genruntimeconfig.cache
