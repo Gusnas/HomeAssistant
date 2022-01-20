@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BMytz/DGsbmw5V0xBxh6UJYbUwjU9iOYrmbSMwWXAEGIEJfmM7C8a7WMaWuL+4wNiJj5ul3PBZFHTbcO4Y229w==",
+  "dgSpecHash": "aduvDxMN2mIiMPih8n5xwqJBJBpfIuY0zh1IKFCWWaTCP+/OV0lKE86ZQXb3GHL+u8dDbysIyqDnrqX4K8hKkw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Niggurath\\Source\\Repos\\HomeAssistant\\HomeAssistant\\Sprinkler\\Sprinkler.csproj",
+  "projectFilePath": "C:\\Users\\Niggurath\\source\\repos\\HomeAssistant\\HomeAssistant\\Sprinkler\\Sprinkler.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Niggurath\\.nuget\\packages\\rabbitmq.client\\6.2.2\\rabbitmq.client.6.2.2.nupkg.sha512",
     "C:\\Users\\Niggurath\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",

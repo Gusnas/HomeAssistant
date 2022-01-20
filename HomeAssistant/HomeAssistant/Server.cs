@@ -16,6 +16,10 @@ namespace HomeAssistant
         private EndPoint epFrom = new IPEndPoint(IPAddress.Any, 0);
         private AsyncCallback recv = null;
 
+        public string MessageAC { get;private set; }
+        public string MessageSS { get; private set; }
+        public string MessageLP { get; private set; }
+
         public class State
         {
             public byte[] buffer = new byte[bufSize];
@@ -50,9 +54,9 @@ namespace HomeAssistant
             }, state);
         }
 
-        /* METODO TESTE PRA RECEBER MENSAGENS PELO RABBITMQ
+        // METODO TESTE PRA RECEBER MENSAGENS PELO RABBITMQ
           
-        public void ReceiveMQ()
+        public void ReceiveAC()
         {
             var factory = new ConnectionFactory() { HostName = "localhost" };
             using (var connection = factory.CreateConnection())
@@ -60,32 +64,110 @@ namespace HomeAssistant
             {
                 channel.ExchangeDeclare(exchange: "data", type: "direct");
                 var queueName = channel.QueueDeclare().QueueName;
+                
                 channel.QueueBind(queue: queueName,
                                   exchange: "data",
                                   routingKey: "ac_temp");
 
-                Console.WriteLine(" [*] Waiting for messages.");
+                //Console.WriteLine(" [*] Waiting for messages.");
                 var consumer = new EventingBasicConsumer(channel);
 
+                while (true)
+                {
+                    consumer.Received += (model, ea) =>
+                    {
+                        var body = ea.Body.ToArray();
+                        var message = Encoding.UTF8.GetString(body);
+                        var routingKey = ea.RoutingKey;
+                        Console.WriteLine(" [x] Received '{0}':'{1}'",
+                                          routingKey, message);
+                    };
+
+                    channel.BasicConsume(queue: queueName,
+                                         autoAck: true,
+                                         consumer: consumer);
+                    Thread.Sleep(1000);
+                }
+            }
+
+        }
+
+        public void ReceiveLamp()
+        {
+            var factory = new ConnectionFactory() { HostName = "localhost" };
+            using (var connection = factory.CreateConnection())
+            using (var channel = connection.CreateModel())
+            {
+                channel.ExchangeDeclare(exchange: "data", type: "direct");
+                var queueName = channel.QueueDeclare().QueueName;
+
+                channel.QueueBind(queue: queueName,
+                                  exchange: "data",
+                                  routingKey: "brightness");
+
+                //Console.WriteLine(" [*] Waiting for messages.");
+                var consumer = new EventingBasicConsumer(channel);
+
+                while(true){
                 consumer.Received += (model, ea) =>
                 {
                     var body = ea.Body.ToArray();
                     var message = Encoding.UTF8.GetString(body);
                     var routingKey = ea.RoutingKey;
-                    Console.WriteLine(" [x] Received '{0}':'{1}'",
-                                      routingKey, message);
+                    MessageLP = message;
+                   // Console.WriteLine(" [x] Received '{0}':'{1}'",
+                   //                   routingKey, message);
                 };
 
                 channel.BasicConsume(queue: queueName,
                                      autoAck: true,
                                      consumer: consumer);
+                    Thread.Sleep(1000);
+                }
 
-                Console.WriteLine(" Press [enter] to exit.");
-                Console.ReadLine();
             }
 
         }
-        */
+
+        public void ReceiveSmokeSensor()
+        {
+            var factory = new ConnectionFactory() { HostName = "localhost" };
+            using (var connection = factory.CreateConnection())
+            using (var channel = connection.CreateModel())
+            {
+                channel.ExchangeDeclare(exchange: "data", type: "direct");
+                var queueName = channel.QueueDeclare().QueueName;
+
+                channel.QueueBind(queue: queueName,
+                                  exchange: "data",
+                                  routingKey: "is_smoke");
+
+                //Console.WriteLine(" [*] Waiting for messages.");
+                var consumer = new EventingBasicConsumer(channel);
+
+                while (true)
+                {
+                    consumer.Received += (model, ea) =>
+                    {
+                        var body = ea.Body.ToArray();
+                        var message = Encoding.UTF8.GetString(body);
+                        var routingKey = ea.RoutingKey;
+                        MessageSS = message;
+                         Console.WriteLine(" [x] Received '{0}':'{1}'",
+                                           routingKey, message);
+                    };
+
+                    channel.BasicConsume(queue: queueName,
+                                         autoAck: true,
+                                         consumer: consumer);
+                    
+                    Thread.Sleep(1000);
+                }
+
+            }
+
+        }
+
 
     }
 }
