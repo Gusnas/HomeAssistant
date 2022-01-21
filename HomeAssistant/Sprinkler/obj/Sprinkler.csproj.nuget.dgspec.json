@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Niggurath\\source\\repos\\HomeAssistant\\HomeAssistant\\Sprinkler\\Sprinkler.csproj": {}
+    "C:\\Users\\Niggurath\\Source\\Repos\\HomeAssistant\\HomeAssistant\\Sprinkler\\Sprinkler.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Niggurath\\source\\repos\\HomeAssistant\\HomeAssistant\\Sprinkler\\Sprinkler.csproj": {
+    "C:\\Users\\Niggurath\\Source\\Repos\\HomeAssistant\\HomeAssistant\\Sprinkler\\Sprinkler.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Niggurath\\source\\repos\\HomeAssistant\\HomeAssistant\\Sprinkler\\Sprinkler.csproj",
+        "projectUniqueName": "C:\\Users\\Niggurath\\Source\\Repos\\HomeAssistant\\HomeAssistant\\Sprinkler\\Sprinkler.csproj",
         "projectName": "Sprinkler",
-        "projectPath": "C:\\Users\\Niggurath\\source\\repos\\HomeAssistant\\HomeAssistant\\Sprinkler\\Sprinkler.csproj",
+        "projectPath": "C:\\Users\\Niggurath\\Source\\Repos\\HomeAssistant\\HomeAssistant\\Sprinkler\\Sprinkler.csproj",
         "packagesPath": "C:\\Users\\Niggurath\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Niggurath\\source\\repos\\HomeAssistant\\HomeAssistant\\Sprinkler\\obj\\",
+        "outputPath": "C:\\Users\\Niggurath\\Source\\Repos\\HomeAssistant\\HomeAssistant\\Sprinkler\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Niggurath\\AppData\\Roaming\\NuGet\\NuGet.Config",
