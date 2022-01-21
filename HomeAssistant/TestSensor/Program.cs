@@ -3,34 +3,21 @@ using RabbitMQ.Client;
 using System.Text;
 using System.Threading;
 
-class Program
+namespace Lamp
 {
-    public static void Main(string[] args)
+    class Program
     {
-        int test = 25;
-        var factory = new ConnectionFactory() { HostName = "localhost" };
-        using (var connection = factory.CreateConnection())
-
-
-        using (var channel = connection.CreateModel())
+        public static void Main(string[] args)
         {
-            channel.ExchangeDeclare(exchange: "data", type: ExchangeType.Direct);
+            Console.WriteLine("Insert the initial brightness");
+            int brightness = int.Parse(Console.ReadLine());
+            AmbLightSensor lght_sensor = new AmbLightSensor(brightness);
+            // Instancia um objeto do tipo thread, e passando metodo desejado via delegate
+            Thread SendBrightness_t = new Thread(
+                new ThreadStart(lght_sensor.SendBrightness));
 
-            var message = test.ToString();
-            var body = Encoding.UTF8.GetBytes(message);
-            while (true)
-            {
-                channel.BasicPublish(exchange: "data",
-                                     routingKey: "brightness",
-                                     basicProperties: null,
-                                     body: body);
-                Console.WriteLine(" [x] Sent {0}", message);
-                Thread.Sleep(4000);
-            }
-
+            // Inicia a thread
+            SendBrightness_t.Start();
         }
-
-        Console.WriteLine(" Press [enter] to exit.");
-        Console.ReadLine();
     }
 }
