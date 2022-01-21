@@ -9,9 +9,10 @@ namespace AirConditioner
     {
         static void Main(string[] args)
         {
-            
-            
-            TempSensor sensor = new TempSensor(24);
+
+            Console.WriteLine("Set the initial temperature");
+            double temp = double.Parse(Console.ReadLine());
+            TempSensor sensor = new TempSensor(temp);
            
             // Instancia um objeto do tipo thread, e passando metodo desejado via delegate
             Thread SendTemp = new Thread(
